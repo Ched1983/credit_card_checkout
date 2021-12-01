@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="cube-r">
+        <section class="cube-v">
+            <div class="swatch"><img src="./watch.jpg" alt="watch"></div>
+            <div class="price">
+                <p>$ 399</p>
+                <p>APPLE WATCH (GOLD CASE)</p>
+            </div>
+        </section>
+        <section>
+            <div class="master"><img src="./mastercard.jpg" alt="master"></div>
+            <div>
+                <p>world</p>
+            </div>
+            <div class="number">
+                <label for="card-number">Card number</label><br>
+                <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19"
+                    placeholder="0000 0000 0000 0000">
+            </div>
+            <div class="month">
+                <label for="expiration">Expiration</label><br>
+                <select name="date" id="date">
+                    <option value="Décembre">Décembre</option>
+                    <option value="Janvier">Janvier</option>
+                    <option value="Février">Février</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Avril">Avril</option>
+                    <option value="Mai">Mai</option>
+                    <option value="Juin">Juin</option>
+                    <option value="Juillet">Juillet</option>
+                    <option value="Aout">Aout</option>
+                    <option value="Septembre">Septembre</option>
+                    <option value="Octobre">Octobre</option>
+                    <option value="Novembre">Novembre</option>
+                </select>
+            </div>
+            <div class="year">
+                <select name="année" id="année">
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+            </div>
+            <div class="cvc">
+                <label for="CVC2">CVC2</label><br>
+                <input type="text" placeholder="***">
+            </div>
+            <div class="valid">
+                <input type="submit">
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>

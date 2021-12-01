@@ -1,0 +1,48 @@
+:root {
+    --green: rgb(189, 224, 218);
+    --pink: rgb(235, 205, 194);
+    ---black: rgb(40, 40, 40);
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+}
+
+.cube-r {
+    margin-top: 3rem;
+    display: flex;
+    width: 52%;
+    height: 90%;
+    background-color: var( --pink);
+    align-items: center;
+    
+}
+
+.cube-v {
+    width: 60%;
+    height: 55%;
+    border-radius: 4%;
+    background-color: var( --green);
+    margin-left: 8%;
+}
+
+.swatch {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.swatch img {
+    height: 200px;
+    width: 275px;
+}
+
+.price {
+    position: relative;
+    bottom: 90px;
+    left: 50px;
+}
