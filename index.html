@@ -14,19 +14,19 @@
         <section class="cube-v">
             <div class="swatch"><img src="./watch.jpg" alt="watch"></div>
             <div class="price">
-                <p>$ 399</p>
-                <p>APPLE WATCH (GOLD CASE)</p>
+                <p class="prix">$ 399</p>
+                <p class="index">APPLE WATCH (GOLD CASE)</p>
             </div>
         </section>
-        <section>
-            <div class="master"><img src="./mastercard.jpg" alt="master"></div>
-            <div>
-                <p>world</p>
+        <section class="cube-n">
+            <div class="master">
+                <img src="./mastercard.jpg" alt="master">
+                <p class="world">world</p>
             </div>
             <div class="number">
-                <label for="card-number">Card number</label><br>
+                <label for="card-number" class="card-number">Card number</label><br>
                 <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19"
-                    placeholder="0000 0000 0000 0000">
+                    placeholder="0000 0000 0000 0000" class="credit">
             </div>
             <div class="month">
                 <label for="expiration">Expiration</label><br>
@@ -44,23 +44,20 @@
                     <option value="Octobre">Octobre</option>
                     <option value="Novembre">Novembre</option>
                 </select>
-            </div>
-            <div class="year">
-                <select name="année" id="année">
+                <select name="année" id="année" class="year">
                     <option value="2021">2021</option>
                     <option value="2022">2022</option>
                     <option value="2023">2023</option>
                     <option value="2024">2024</option>
                     <option value="2025">2025</option>
                 </select>
-            </div>
-            <div class="cvc">
-                <label for="CVC2">CVC2</label><br>
+                <label for="CVC2" class="cvc">CVC2</label><br>
                 <input type="text" placeholder="***">
             </div>
             <div class="valid">
                 <input type="submit">
             </div>
+
         </section>
     </section>
 </body>
