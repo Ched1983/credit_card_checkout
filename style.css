@@ -21,9 +21,8 @@ body {
 }
 
 .cube-v {
-    z-index: 1;
-    width: 36rem;
-    height: 21rem;
+    width: 60%;
+    height: 55%;
     border-radius: 4%;
     background-color: var( --green);
     margin-left: 8%;
@@ -44,76 +43,6 @@ body {
 
 .price {
     position: relative;
-    bottom: 80px;
-    left: 70px;
-    color: white;
+    bottom: 90px;
+    left: 50px;
 }
-
-.prix {
-    font-size: 19pt;
-    font-weight: bold;
-    margin: 0%;
-}
-
-.index {
-    font-size: 15pt;
-    margin: 0%;
-}
-
-.cube-n {
-    z-index: 2;
-    transform: translateX(-5rem) translateY(5rem);
-    margin-left: 27rem;
-    width: 25rem;
-    height: 16rem;
-    background-color: var(---black);
-    border-radius: 4%;
-    box-shadow: 1rem 1rem 1rem 1rem rgb(40, 40, 40, 0.25);
-}
-
-.master {   
-    display: inline-flex;
-    margin-left: 1.8rem;
-    margin-top: 0.8rem;
-    height: 2.5rem;
-}
-
-.world {
-    margin-top: 0.15rem;
-    margin-left: 16rem;
-    color: gray;
-    font-size: 1.2rem;
-}
-
-.card-number {
-    color: gray;
-    font-size: 0.8rem;
-    margin-left: 2.2rem;
-}
-
-.credit {
-    background-color: var(---black);
-    border-color: var(---black);
-    margin-left: 2.2rem;
-    font-size: 1.4rem;
-    font-weight: 800;
-    height: 2rem;
-    width: 16.5rem;
-}
-
-:hover .credit {
-    color: white;
-}
-
-.month {
-    display: inline-flex;
-    margin-left: 2.2rem;
-    margin-top: 5rem;
-    color: gray;
-}
-
-.expiration {
-    
-    margin-left: 2.2rem;
-}
-

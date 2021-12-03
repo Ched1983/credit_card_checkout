@@ -14,19 +14,19 @@
         <section class="cube-v">
             <div class="swatch"><img src="./watch.jpg" alt="watch"></div>
             <div class="price">
-                <p class="prix">$ 399</p>
-                <p class="index">APPLE WATCH (GOLD CASE)</p>
+                <p>$ 399</p>
+                <p>APPLE WATCH (GOLD CASE)</p>
             </div>
         </section>
-        <section class="cube-n">
-            <div class="master">
-                <img src="./mastercard.jpg" alt="master">
-                <p class="world">world</p>
+        <section>
+            <div class="master"><img src="./mastercard.jpg" alt="master"></div>
+            <div>
+                <p>world</p>
             </div>
             <div class="number">
-                <label for="card-number" class="card-number">Card number</label><br>
+                <label for="card-number">Card number</label><br>
                 <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19"
-                    placeholder="0000 0000 0000 0000" class="credit">
+                    placeholder="0000 0000 0000 0000">
             </div>
             <div class="month">
                 <label for="expiration" class="expiration">Expiration</label><br>
@@ -47,19 +47,23 @@
                     <option value="Octobre">Octobre</option>
                     <option value="Novembre">Novembre</option>
                 </select>
-                <select name="année" id="année" class="year">
+            </div>
+            <div class="year">
+                <select name="année" id="année">
                     <option value="2021">2021</option>
                     <option value="2022">2022</option>
                     <option value="2023">2023</option>
                     <option value="2024">2024</option>
                     <option value="2025">2025</option>
                 </select>
+            </div>
+            <div class="cvc">
+                <label for="CVC2">CVC2</label><br>
                 <input type="text" placeholder="***">
             </div>
             <div class="valid">
                 <input type="submit">
             </div>
-
         </section>
     </section>
 </body>
